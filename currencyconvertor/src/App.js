@@ -16,6 +16,7 @@ function App() {
    const options =  Object.keys(currencyInfo)
 
    const swap = () => {
+    // setting the value which need to set after swap
       setFromValue(toValue)
       setToValue(fromValue)
       setConvertedammount(amount)
@@ -80,7 +81,7 @@ function App() {
         </div>
     </div>
 </div>
- 
+
 
   );
 }
